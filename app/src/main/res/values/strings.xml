@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Lupa Inteligente</string>
+    <string name="lupa_inteligente">Lupa Inteligente</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="historial">Historial</string>
+    <string name="camara">Cámara</string>
+    <string name="galeria">Galería</string>
 </resources>
