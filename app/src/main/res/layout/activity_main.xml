@@ -66,19 +66,21 @@
             app:neumorph_shadowColorLight="@color/luzTemaClaro"
             app:neumorph_shadowElevation="@dimen/_4sdp"
             app:neumorph_shapeAppearance="@style/NeumorphismCard"
+
             tools:ignore="MissingConstraints">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:orientation="vertical"
                 android:padding="@dimen/_15sdp">
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="125dp"
                     android:layout_height="124dp"
-                    android:src="@drawable/ic_camera"
                     android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_camera"
                     app:tint="@color/blue" />
 
                 <TextView
@@ -108,6 +110,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:orientation="vertical"
                 android:padding="@dimen/_16sdp">
 
@@ -143,14 +146,15 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:orientation="vertical"
                 android:padding="@dimen/_15sdp">
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="125dp"
                     android:layout_height="124dp"
-                    android:src="@drawable/ic_help"
                     android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_help"
                     app:tint="@color/blue" />
 
                 <TextView
@@ -161,10 +165,9 @@
                     android:text="@string/ayuda"
                     android:textColor="@color/blue"
                     android:textSize="@dimen/_25sdp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"/>
             </LinearLayout>
         </soup.neumorphism.NeumorphCardView>
-
 
         <soup.neumorphism.NeumorphCardView
             android:id="@+id/cardHistorial"
@@ -180,6 +183,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:orientation="vertical"
                 android:padding="@dimen/_16sdp">
 
